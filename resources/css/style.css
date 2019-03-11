@@ -56,3 +56,59 @@ header nav span {
 .mission .image-text {
   background-color: black;
 }
+
+/* Tea of the Month*/
+.mid {
+  width: 1000px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.TOTM {
+  display: flex;
+  flex-flow: wrap;
+
+  justify-content: center;
+}
+
+.tea {
+  margin: 10px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+.tea img {
+  width:300px;
+  height:200px;
+}
+
+.tea h4 {
+  margin: 10px;
+}
+/* Locations */
+.locationscontainer {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin-left: auto;
+  margin-right: auto;
+}
+.locationscontainer h2 {
+  margin-bottom: 15px;
+}
+.locations {
+  display: flex;
+  width: 1020px;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.location {
+  background-color: black;
+  width:300px;
+}
+
+.location p {
+  opacity 1;
+}
