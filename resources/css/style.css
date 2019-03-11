@@ -8,7 +8,7 @@ body {
 }
 
 div {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 header {
@@ -19,6 +19,8 @@ header {
   z-index: 1;
   height:69px;
   width: 100%;
+  margin: 0;
+  top: 0px;
   border-bottom: 1px solid seashell;
   background-color: black;
 }
@@ -39,9 +41,13 @@ header nav {
 header nav span {
   margin-left: 20px;
 }
+a:hover, a:active, a:link, a:visited {
+  color: seashell;
+}
+
 
 /*Mission*/
-.mission {
+#mission {
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
@@ -53,14 +59,14 @@ header nav span {
   margin-right: auto;
 }
 
-.mission .image-text {
+#mission .image-text {
   background-color: black;
 }
 
 /* Tea of the Month*/
-.mid {
+#TOTMcontainer {
   width: 1000px;
-  margin-top: 20px;
+  margin-top: 69px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -86,15 +92,18 @@ header nav span {
   margin: 10px;
 }
 /* Locations */
-.locationscontainer {
+#locationscontainer {
   height: 500px;
   width: 1200px;
   background-image: url("../images/img-locations-background.jpg");
   margin-left: auto;
   margin-right: auto;
+  margin-top: 69px;
 }
-.locationscontainer h2 {
+#locationscontainer h2 {
+  padding-top: 69px;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 .locations {
   display: flex;
@@ -111,4 +120,17 @@ header nav span {
 
 .location p {
   opacity 1;
+}
+/* contact */
+.contact {
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+/* footer */
+.footer p {
+  margin-left: 20px;
+  text-align: left;
+  font-weight: bold;
 }
