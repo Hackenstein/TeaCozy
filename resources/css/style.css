@@ -51,7 +51,7 @@ a:hover, a:active, a:link, a:visited {
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
-  margin-top: 69px;
+  padding-top: 69px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,7 +66,7 @@ a:hover, a:active, a:link, a:visited {
 /* Tea of the Month*/
 #TOTMcontainer {
   width: 1000px;
-  margin-top: 69px;
+  padding-top: 69px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,12 +96,13 @@ a:hover, a:active, a:link, a:visited {
   height: 500px;
   width: 1200px;
   background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 69px;
+  padding-top: 69px;
 }
 #locationscontainer h2 {
-  padding-top: 69px;
+
   margin-bottom: 15px;
   font-weight: bold;
 }
@@ -120,6 +121,7 @@ a:hover, a:active, a:link, a:visited {
 
 .location p {
   opacity 1;
+  margin: 30px 0px;
 }
 /* contact */
 .contact {
